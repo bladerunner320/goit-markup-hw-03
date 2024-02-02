@@ -210,12 +210,7 @@ background-color: #404BBF;
 
 .team-container {
     display: flex;
-    align-items: center;
     gap: 24px;
-    padding-top: 0;
-    padding-bottom: 120px;
-    max-width: 100%;
-    width: calc((100% - 72) / 4);
 }
 
 .worker-container {
@@ -249,7 +244,6 @@ background-color: #404BBF;
 
 .portfolio {
     color: #2E2F42;
-    text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -259,6 +253,13 @@ background-color: #404BBF;
 }
 
 .header-portfolio {
+    color: #2E2F42;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
     margin-bottom: 72px;
 }
 
@@ -273,7 +274,7 @@ background-color: #404BBF;
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
     border-top: none;
-    margin-bottom: 8px;
+    
 }
 
 .portfolio-list-item {
